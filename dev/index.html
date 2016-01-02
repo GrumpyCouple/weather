@@ -26,6 +26,7 @@
 
     <script src="dev/js/vendor/modernizr.min.js"></script>
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="dev/js/weather.js"></script>
 
     <!-- Typekit -->
 
@@ -44,6 +45,8 @@
 
     <main>
       <div class="wrapper">
+        <h1 id="city">Meechum's Weather</h1>
+        <p><a id="temperature" href="#" onclick="switchUnits(); return false;" title="Click to switch between metric and imperial units"></a><span id="weather">by Pooping the bed</span></p>
       </div>
     </main>
 
